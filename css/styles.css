@@ -237,6 +237,7 @@ li {
   height: 50px;
   letter-spacing:0.06em ;
   border: none;
+ 
 }
 
 
@@ -420,19 +421,16 @@ margin-right: 30px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
-  padding-top:20px;
-  padding-left:24px
+  
 }
 
 .portfolio-work {
   color: var(--transparent-text);
-  font-family: Roboto;
+  font-family:Roboto;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   padding-top:4px;
-  padding-bottom:20px;
-  padding-left:24px
 
 }
 .button-primary {
@@ -470,6 +468,9 @@ margin-right: 30px;
   box-sizing: border-box; 
 }
 
-.title-item{
-border: 1px solid #EEEEEE; 
+
+.portfolio-text-work{
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: transparent;
 }
