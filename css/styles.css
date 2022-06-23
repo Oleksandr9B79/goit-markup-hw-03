@@ -437,6 +437,7 @@ margin-right: 30px;
   font-family: Roboto;
   color: var(--title-text-color);
   background: var(--baground-comands);
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -446,8 +447,9 @@ margin-right: 30px;
   margin-right: 8px;
   border-radius: 4px;
   border: none;
-  width: 145px;
-  height: 38px;
+  display: inline-block;
+  padding: 6px 22px;
+
  
 }
 
