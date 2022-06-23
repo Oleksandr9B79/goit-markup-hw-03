@@ -414,25 +414,6 @@ margin-right: 30px;
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.portfolio-text {
-  color: var(--title-text-color)
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-  
-}
-
-.portfolio-work {
-  color: var(--transparent-text);
-  font-family:Roboto;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  padding-top:4px;
-
-}
 .button-primary {
   font-family: Roboto;
   color: var(--title-text-color);
@@ -449,8 +430,6 @@ margin-right: 30px;
   border: none;
   display: inline-block;
   padding: 6px 22px;
-
- 
 }
 
 .button-primary:hover,
@@ -461,11 +440,27 @@ margin-right: 30px;
 .button-container { 
   display: flex;
   justify-content:center;
-
  
 }
+.portfolio-text {
+  color: var(--title-text-color)
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
 
-.title-portfolio{
+.portfolio-work {
+  color: var(--transparent-text);
+  font-family:Roboto;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  padding-top:4px;
+}
+
+.title-portfolio {
   list-style: none;
   box-sizing: border-box; 
 }
