@@ -26,8 +26,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
 }
 
 h1,
@@ -51,7 +50,6 @@ img {
 .card-set{
   display:flex;
   flex-wrap:wrap;
-  /* padding-top: 50px; */
   margin: calc(-1 * var(--indent) / 2); 
   
 }
@@ -201,13 +199,17 @@ li {
 
  
 }
-
-.decision-container{
-  display: block; 
-  
+.features{
+  padding-bottom:0;
 }
 
-.container .decision-bg{
+
+.decision-container {
+  display: block;
+ 
+}
+
+.container .decision-bg {
  width: 696px;
 
 }
@@ -221,7 +223,6 @@ li {
   font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
- 
 }
 
                  /* Button */
@@ -239,13 +240,11 @@ li {
   height: 50px;
   letter-spacing:0.06em ;
   border: none;
- 
 }
 
 
 .features-grup {
   columns: 4;
-  
 }
 
 .text {
@@ -254,9 +253,6 @@ li {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.2;
-  
-  
-
 }
 
 .text-li{
@@ -265,9 +261,7 @@ li {
 .grup-text{
   display: block;
   margin-top: 10px;
-  line-height: 24px
-  
-  
+  line-height: 24px    
 }
 .section-title {
   color: var(--title-text-color);
